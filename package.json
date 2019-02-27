@@ -1,0 +1,27 @@
+{
+  "name": "learn-nodejs",
+  "version": "1.0.0",
+  "description": "course belajar nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adivaprayoga/Learn-NodeJS.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Adiva Prayoga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adivaprayoga/Learn-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Adivaprayoga/Learn-NodeJS#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {}
+}

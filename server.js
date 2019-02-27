@@ -1,7 +1,10 @@
 var http = require('http');
+var url = require('url');
 
 var server = http.createServer(function (req, res){
-  res.end("Hi, Selamat datang di NodeJs");
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write("<h1> Hello Word </h1>");
+  res.end(txt);
 });
 
 server.listen(8000);
