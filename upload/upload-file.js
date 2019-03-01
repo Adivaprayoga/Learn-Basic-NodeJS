@@ -22,7 +22,7 @@ var server = http.createServer(function (req, res){
       // menangani upload file
       form.parse (req, function (err, fields, files){
         var oldpath = files.filetoupload.path;
-        var newpath = __dirname + "/wadah/" + files.filetoupload.name;
+        var newpath = __dirname + "/files/" + files.filetoupload.name;
 
         // pindahkan file yang telah di-upload
         mv(oldpath, newpath, function (err){
