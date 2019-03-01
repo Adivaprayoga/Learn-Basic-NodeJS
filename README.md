@@ -1,3 +1,3 @@
 # Learn-NodeJS
 
-Learn from Scratch
+NodeJS so cool !
